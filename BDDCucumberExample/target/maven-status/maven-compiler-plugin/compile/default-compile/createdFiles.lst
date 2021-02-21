@@ -1,8 +1,0 @@
-com\magna\bdd\steps\CommonSteps.class
-com\magna\bdd\steps\WURegistrationSteps.class
-com\magna\bdd\brstack\BrowserStackExample.class
-com\magna\bdd\setup\SetUP.class
-com\magna\bdd\pages\WURegistrationPage.class
-com\magna\bdd\runner\TestRunner.class
-com\magna\bdd\pages\CommonComponents.class
-com\magna\bdd\utils\AppConstants.class

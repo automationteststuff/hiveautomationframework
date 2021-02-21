@@ -24,7 +24,7 @@ public class CommonComponents {
 	}
 	
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 	}
 	
 }

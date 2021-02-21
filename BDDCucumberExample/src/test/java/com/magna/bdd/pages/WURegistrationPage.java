@@ -25,7 +25,7 @@ public class WURegistrationPage {
 	@FindBy(xpath = "//input[@id = 'lastName']")
 	WebElement lastName;
 
-	@FindBy(xpath = "//input[@id = 'lkj']")
+	@FindBy(xpath = "//input[@id = 'dob']")
 	WebElement dob;
 	
 	@FindBy(xpath = "//button[@id = 'button-continue']")

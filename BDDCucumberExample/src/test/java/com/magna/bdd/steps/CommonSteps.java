@@ -27,6 +27,6 @@ public class CommonSteps {
 	@Then("user closes the apllication")
 	public void user_closes_the_apllication() {
 //		cmp.tearDown();
-		SetUP.driver.quit();
+//		SetUP.driver.quit();
 	}
 }

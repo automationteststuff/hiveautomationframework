@@ -34,11 +34,11 @@ public class SetUP {
 					DesiredCapabilities caps = new DesiredCapabilities();
 					caps.setCapability("os_version", "10");
 					caps.setCapability("resolution", "1024x768");
-					caps.setCapability("browser", "Edge");
+					caps.setCapability("browser", "Chrome");
 					caps.setCapability("browser_version", "88.0");
 					caps.setCapability("os", "Windows");
-					caps.setCapability("name", "Automation Hive Sample Test"); // test name
-					caps.setCapability("build", "Hive Build 2"); // CI/CD job or build name
+					caps.setCapability("name", "jenkins Job"); // test name
+					caps.setCapability("build", "Jenkins Build"); // CI/CD job or build name
 					driver = new RemoteWebDriver(new URL(REMOTE_URL), caps);
 				} catch (MalformedURLException e) {
 					// TODO Auto-generated catch block

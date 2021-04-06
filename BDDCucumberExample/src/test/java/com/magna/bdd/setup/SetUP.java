@@ -26,7 +26,7 @@ public class SetUP {
 		if (driver == null) {
 
 			if (runMode.equalsIgnoreCase(AppConstants.APP_CONFIG_RUN_MODE_LOCAL)) {
-				System.setProperty("webdriver.chrome.driver", "./res/drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "./res/drivers/chromedriver_new.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 			} else if (runMode.equalsIgnoreCase(AppConstants.APP_CONFIG_RUN_MODE_REMOTE)) {

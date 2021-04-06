@@ -69,8 +69,8 @@ public class WURegistrationPage {
 	}
 	
 	public static void markTestStatus(String status, String reason, WebDriver driver) {
-		JavascriptExecutor jse = (JavascriptExecutor) driver;
-		jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \""
+// 		JavascriptExecutor jse = (JavascriptExecutor) driver;
+// 		jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \""
 				+ status + "\", \"reason\": \"" + reason + "\"}}");
 	}
 

@@ -19,7 +19,7 @@ public class SetUP {
 	public static final String REMOTE_URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY
 			+ "@hub-cloud.browserstack.com/wd/hub";
 
-	static String runMode = "remote";
+	static String runMode = "local";
 
 	public static WebDriver getDriver() {
 
